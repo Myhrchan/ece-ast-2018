@@ -1,5 +1,7 @@
 # Titre 1
 
+[![Build Status](https://travis-ci.org/cberez/ece-ast-2018.svg?branch=master)](https://travis-ci.org/cberez/ece-ast-2018)
+
 ## Titre 2
 
 * item 
