@@ -50,4 +50,10 @@ export class MetricsHandler {
         }
       })
   }
+
+  public remove(key: string, callback: (err: Error | null) => void) {
+    // TODO
+
+    callback(null)
+  }
 }

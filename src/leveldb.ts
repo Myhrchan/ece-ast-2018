@@ -12,4 +12,10 @@ export class LevelDB {
     )
     return levelup(encoded)
   }
+
+  static clear(path: string) {
+    if (fs.existsSync(path)) {
+      del.sync(path, { force: true })
+    }
+  }
 }
