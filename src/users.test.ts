@@ -2,7 +2,7 @@ import { expect } from 'chai'
 import { User, UserHandler } from './users'
 import { LevelDB } from "./leveldb"
 
-const dbPath: string = 'db_test'
+const dbPath: string = 'db_test/users'
 var dbUser: UserHandler
 
 describe('Users', function () {
